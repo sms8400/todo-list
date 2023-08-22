@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import React, {useState} from 'react'
+import Header from "../Header/Header";
+// import './signUp.css';
+import {useNavigate, Link} from 'react-router-dom';
 
 export const SignUp = (props) => {
     const [email, setEmail] = useState('');
@@ -26,3 +29,4 @@ export const SignUp = (props) => {
     </div>
     )
 }
+export default SignUp
